@@ -15,7 +15,7 @@ public class PetController {
 
     @GetMapping("/hi")
     public String sayHi() {
-        return "hi, from CD";
+        return "hi, from Continuous Deplotment";
     }
 
     @GetMapping
