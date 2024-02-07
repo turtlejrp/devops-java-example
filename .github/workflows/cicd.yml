@@ -58,6 +58,9 @@ jobs:
 
       - uses: actions/checkout@v4
 
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
+
       - name: Unit test outside Docker-compose
         run: ./gradlew test
 
